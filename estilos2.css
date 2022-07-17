@@ -1,0 +1,244 @@
+* {
+    font-family: Helvetica;
+}
+header {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+main, #contacto {
+    font-size: 1.1rem;
+}
+
+h2, h3 {
+    color: rgb(61, 31, 10);
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+
+#header, #menu, #navbarNav, #encontrar, #fran, #nacio {
+    background-color: rgb(253, 226, 185);
+}
+
+#home, #consejos, #libros, #contacto {
+    background-color: rgb(231, 177, 139);
+}
+
+#home {
+    margin-top: -40px;
+}
+
+#carrusel {
+    margin-top: -1rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    background-image: url(iconos/logo-con-texto.png);
+    width: 327px;
+    height: 100px;
+    background-repeat: no-repeat;
+    font-size: 0;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    z-index: 5;
+}
+
+#home {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#home img {
+    margin-top: 4rem;
+}
+
+#nacio img {
+    margin-top: 4rem;
+}
+
+#menu {
+    height: 120px;
+    margin: 0;
+    padding: 0;
+}
+
+#menu button {
+    margin-left: auto;
+}
+
+.card {
+    margin: 20px 20px;
+    background-color: rgb(253, 241, 226);
+}
+
+.card:hover {
+    background-color: rgb(252, 223, 189);
+}
+
+#nacio, #consejos, #fran, #contacto, #libros, #encontrarnos {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#footer {
+    background-color: rgb(253, 226, 185);
+    padding: 2rem;
+    padding-top: 3rem;
+}
+
+#nacio {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#video {
+        width: 560px;
+        height: 315px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.card {
+    border: rgb(150, 62, 62) 2px solid;
+}
+
+.card img {
+    width: 16rem;
+    margin: auto;
+}
+
+#navbarNav ul li a {
+    color: black;
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+
+#navbarNav ul li a:hover {
+    color: brown;
+}
+
+.carousel-inner {
+    margin: 2.5rem 0;
+}
+
+#logo2 {
+    background: url(iconos/logoo.png);
+    font-size: 0;
+    width: 101px;
+    height: 101px;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+#redes li {
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+#redes li a {
+    background: url('iconos/sprite.png') left top no-repeat; display: inline-block; width: 48px; height: 48px; overflow: hidden; text-indent: -5000px;
+}
+
+#redes #face  {
+    background-position: 0px 0px;
+}
+
+#redes #ig { 
+    background-position: -48px 0px; 
+}
+
+#redes #youtube{ 
+    background-position: -96px 0px; 
+}
+
+#banner {
+    display: none;
+}
+
+input[type="submit"] {
+    font-size: 1.2rem;
+    border: rgb(150, 62, 62) solid 3px;
+    margin-top: 1.5rem;
+    padding: 0 30px;
+    margin-left: 40%;
+    background-color: antiquewhite;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(150, 62, 62);
+    color: whitesmoke;
+}
+
+label {
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+}
+
+
+@media screen and (max-width:997px) {
+    #logo {
+        background-image: url(iconos/logo-tablet.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 101px;
+    }
+    #video {
+        width: 480px;
+        height: 265px;
+    }
+    #logo2 {
+        background: url(iconos/logo-tablet.png) no-repeat;
+        font-size: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #carrusel {
+        display: none;
+    }
+    #banner {
+        display: block;
+        padding-bottom: 1rem;
+    }
+    #banner picture {
+        margin: 0;
+        padding: 0;
+    }
+    #logo2 {
+        margin-right: auto;
+        width: 101px;
+    }
+    form {
+        width: 100px;
+        padding-left: 150px;
+    }
+    input[type="submit"] {
+        margin-left: 100px;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    #video {
+        width: 300px;
+        height: 150px;
+    }
+    form {
+        padding-left: 0;
+    }
+}
+
